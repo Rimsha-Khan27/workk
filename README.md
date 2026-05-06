@@ -1,36 +1,41 @@
-# Overview
+Overview
 
-This document provides the process for provisioning and managing user access for the OASYS Non-PROD environments (DEV, QA, and UAT). It includes procedures for creating new users, replicating existing user access, and modifying permissions for existing users within the OASYS application.
+This document provides the process for provisioning user access in the UK-eADS Non-PROD environment. It includes steps for creating new user profiles, assigning security groups, configuring access levels, and validating successful user provisioning within the eADS application.
 
-# Purpose
+Purpose
 
-The purpose of this document is to standardize the OASYS Non-PROD access provisioning process and ensure all user access requests are validated, approved, configured, and communicated properly.
+The purpose of this document is to standardize the UK-eADS Non-PROD user provisioning process and ensure user accounts are created with appropriate access permissions based on business requirements and approved requests.
 
-# Environment Supported
-
-* DEV
-* QA
-* UAT
-
-# Scope of Work
+Environment Supported
+UK-eADS Non-PROD Environment
+Scope of Work
 
 This document covers the following activities:
 
-* New user provisioning
-* User access replication using mirror ID
-* Underwriter access setup
-* User role and permission modification
-* Existing user access updates
-* User validation and notification process
+New user provisioning in eADS
+Personnel table user creation
+Security group assignment
+Access level configuration
+Underwriter access enablement
+User validation after provisioning
+Pre-Requisites
 
-# Pre-Requisites
+Support personnel must have the following access before performing the activities mentioned in this document:
 
-Support personnel must have the following access and permissions before performing the activities mentioned in this document:
+UK-eADS Non-PROD application access
+Valid administrator/support credentials
+Personnel Table maintenance access
+Security Group management access
+Required approval/request details from ServiceNow ticket
+Request Details Required
 
-* ServiceNow access
-* OASYS Non-PROD application access
-* OKTA SSO access
-* User Maintenance access
-* Underwriter Maintenance access
-* Required approval group access
-* Access to DEV, QA, and UAT environments
+Before starting the provisioning activity, ensure the below information is available in the request:
+
+User Full Name
+Employee ID
+Email Address
+R1-Core LAN ID / Domain User ID
+Region
+Required Security Groups
+Access Type Required
+Underwriter access requirement (if applicable)
