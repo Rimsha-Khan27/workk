@@ -1,1 +1,23 @@
-# workk
+Overview:
+
+The eLAD application supports user access management for internal and external users/brokers in non-production environments through OKTA CIAM and application-level access provisioning.
+
+Purpose:
+
+The purpose of this document is to define the standard process for provisioning, modifying, and removing non-production user access for the eLAD application.
+
+Environment Supported:
+
+DEV
+QA
+UAT
+
+Scope of Work:
+
+Non-PROD user access provisioning
+Access modification and role updates
+Access de-provisioning
+OKTA CIAM group access management
+Internal user access management
+External user/Broker access management
+User validation and notification process
