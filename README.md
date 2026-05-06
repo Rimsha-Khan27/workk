@@ -21,3 +21,10 @@ OKTA CIAM group access management
 Internal user access management
 External user/Broker access management
 User validation and notification process
+Pre-requisite:
+
+* A ServiceNow request must be raised for access provisioning/modification.
+* Required approvals must be completed before processing the request.
+* User details such as Name, Email ID, Region, Environment, and Required Access must be provided.
+* Mirror ID/details must be provided for access replication requests, if applicable.
+* Support personnel must have required access to OKTA CIAM and eLAD application management portals.
