@@ -1,27 +1,36 @@
-Overview:
+# Overview
 
-The ILS application supports non-production user access management through Active Directory (AD) groups and database-level provisioning for internal users across multiple environments.
+This document provides the process for provisioning and managing user access for the OASYS Non-PROD environments (DEV, QA, and UAT). It includes procedures for creating new users, replicating existing user access, and modifying permissions for existing users within the OASYS application.
 
-Purpose:
+# Purpose
 
-The purpose of this document is to define the standard process for provisioning and modifying non-production user access for the ILS application.
+The purpose of this document is to standardize the OASYS Non-PROD access provisioning process and ensure all user access requests are validated, approved, configured, and communicated properly.
 
-Environment Supported:
-QA/Test
-Development
-Non-PROD Environments
+# Environment Supported
 
-(You can also write DEV / TEST / QA if your manager prefers short format.)
+* DEV
+* QA
+* UAT
 
-Scope of Work:
-New user provisioning
-Existing user permission updates
-AD group access management
-Database-level user provisioning through DML scripts
-User validation and notification process
-Pre-requisite:
-A ServiceNow request must be raised for user provisioning or access modification.
-Required approvals must be completed before processing the request.
-User details such as Name, Email Address, R1-Core LAN ID, Employee ID, Branch, User Group, and required environment access must be provided.
-Mirror user details must be provided for access replication requests, if applicable.
-Support personnel must have required access to Active Directory, ILS database, and Jenkins non-production pipeline.
+# Scope of Work
+
+This document covers the following activities:
+
+* New user provisioning
+* User access replication using mirror ID
+* Underwriter access setup
+* User role and permission modification
+* Existing user access updates
+* User validation and notification process
+
+# Pre-Requisites
+
+Support personnel must have the following access and permissions before performing the activities mentioned in this document:
+
+* ServiceNow access
+* OASYS Non-PROD application access
+* OKTA SSO access
+* User Maintenance access
+* Underwriter Maintenance access
+* Required approval group access
+* Access to DEV, QA, and UAT environments
