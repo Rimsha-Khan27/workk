@@ -1,6 +1,50 @@
-# ILS Alerts – SOP / Failure Handling Document
+Short Description:
+Provide QA and UAT access for UW-Aero eLAD application
 
-## Overview
+Description:
+WHAT: Provide QA and UAT access for the UW-Aero eLAD application.
+
+QA URL:
+https://awgiwsuwaero001.livdmz1.r1.aig.net/eLADNET/Account/Login
+
+UAT URL:
+https://www-225-model.aig.com/Account/Login
+
+WHEN: Access request raised for immediate completion to support ongoing QA and UAT activities.
+
+WHO: Requested on behalf of users requiring access to the UW-Aero eLAD application environments.
+
+HOW:
+Open the UW-Aero eLAD application access management portal/application.
+Validate the requested QA and UAT environments.
+Provide the required access permissions to the user.
+Save and validate the access changes.
+Notify requester after successful provisioning.
+
+WHY: Access is required in QA and UAT environments to support testing, validation, and application-related activities without delays.
+
+IDENTIFIERS:
+Application: UW-Aero eLAD
+Environments: QA, UAT
+Requested For: Anson Walder
+Assignment Group: UW-Aero eLAD
+
+Closure Information:
+
+Reported Issue:
+Access required for QA and UAT environments of UW-Aero eLAD application.
+
+Issue Description:
+User requested QA and UAT access provisioning for the UW-Aero eLAD application.
+
+Analysis:
+The request was raised to provide the required access permissions in QA and UAT environments to support application testing and validation activities.
+
+Solution/Workaround:
+Requested QA and UAT access has been successfully provided for the UW-Aero eLAD application.
+
+Module/functionality:
+USER ACCESS MANAGEMENT / QA & UAT ACCESS PROVISIONING
 
 This document provides the monitoring and handling procedure for ILS infrastructure alerts related to CPU usage, memory usage, and disk space threshold breaches across identified servers.
 
