@@ -1,4 +1,45 @@
 Short Description:
+
+Update State Code to Newfoundland for Control No 13536416
+
+Description:
+
+WHAT: State information was not correctly reflecting as Newfoundland for Control No 13536416.
+
+WHEN: [Update the implementation timing]
+
+WHO: Requested by the business user.
+
+HOW:
+Reviewed the policy and identified the incorrect state code.
+Updated the state code to the correct Newfoundland value using DML.
+Validated the updated state information.
+
+WHY: To ensure the policy reflects the correct state as Newfoundland.
+
+IDENTIFIERS: Control No: 13536416
+
+Closure Information:
+
+Reported Issue:
+
+State was not correctly reflecting as Newfoundland for the specified control number.
+
+Issue Description:
+
+The state code was identified as incorrect, resulting in the state information not displaying correctly.
+
+Analysis:
+
+The policy details were reviewed and the state code was identified as the cause of the issue.
+
+Solution/Workaround:
+
+The state code was successfully updated to the correct Newfoundland value using DML, and the updated information was validated successfully.
+
+Module/functionality:
+
+POLICY INFORMATION / STATE CODE UPDATE
 UW-Aero eLAD: Certificate number not displaying correctly for lienholder on policy LA300532-6.
 
 Description:
