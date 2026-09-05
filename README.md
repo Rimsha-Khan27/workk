@@ -1,5 +1,46 @@
 Short Description:
 
+Remove Midterm Endorsement for Control No 13755546
+
+Description:
+
+WHAT: Request raised to remove the midterm endorsement causing the reported issue for Control No 13755546.
+
+WHEN: [Update the implementation timing]
+
+WHO: Requested by the business user.
+
+HOW:
+Reviewed the policy and identified the midterm endorsement contributing to the issue.
+Prepared the required DML to remove the endorsement.
+Validated the relevant policy details after the update.
+
+WHY: To remove the midterm endorsement causing the issue and ensure the policy is processed correctly.
+
+IDENTIFIERS: Control No: 13755546 | Reference: 9085525 | Insured: Michael Keteman
+
+Closure Information:
+
+Reported Issue:
+
+Issue identified due to a midterm endorsement on the policy.
+
+Issue Description:
+
+The reported issue was analyzed and the midterm endorsement was identified as the cause.
+
+Analysis:
+
+The policy details were reviewed and the midterm endorsement contributing to the issue was identified. The required DML was prepared to remove the endorsement.
+
+Solution/Workaround:
+
+The required DML was prepared to remove the identified midterm endorsement and resolve the issue.
+
+Module/functionality:
+
+ENDORSEMENT MANAGEMENT / POLICY DATA UPDATE
+
 Update State Code to Newfoundland for Control No 13536416
 
 Description:
