@@ -1,5 +1,47 @@
 Short Description:
 
+Invoice Corrector - State Code Mismatch for Control No 13403665
+
+Description:
+
+WHAT: Invoice processing failed because of a state code mismatch in the database for Control No 13403665.
+
+WHEN: [Update the implementation timing]
+
+WHO: Requested by the business user.
+
+HOW:
+Identified the state code as NF in the database.
+Updated the state code from NF to NL to allow the policy to move to the AS400 system for invoice processing.
+Processed the invoice successfully.
+Reverted the state code from NL back to NF after invoice processing was completed.
+
+WHY: To resolve the state code mismatch and successfully process the invoice.
+
+IDENTIFIERS: Control No: 13403665 | Application: UW-Aero eLAD
+
+Closure Information:
+
+Reported Issue:
+
+Invoice processing failed due to a state code mismatch.
+
+Issue Description:
+
+The total invoice amount did not balance with the coverage information for Control No 13403665.
+
+Analysis:
+
+The database was reviewed and the state code was identified as NF, while NL was required for the policy to move to the AS400 system for processing.
+
+Solution/Workaround:
+
+The state code was temporarily updated from NF to NL to facilitate AS400 processing. The invoice was processed successfully, after which the state code was reverted back to NF.
+
+Module/functionality:
+
+INVOICE CORRECTOR / STATE CODE UPDATE
+
 Remove Midterm Endorsement for Control No 13755546
 
 Description:
