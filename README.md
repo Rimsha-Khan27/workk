@@ -1,4 +1,14 @@
 Short Description:
+Invoice Corrector - Further Analysis for Control No 13409739
+
+Description:
+What: Further analysis of the Invoice Corrector issue for Control No 13409739.
+When: As per the requested schedule.
+Why: Premium values are not matching with the coverage information.
+Action: Database records and premium values will be reviewed and matched to identify the discrepancy.
+
+Closure Notes:
+Child ticket created for further analysis of the Invoice Corrector issue. Database records and premium values will be reviewed against the coverage information to identify and resolve the discrepancy.
 
 Invoice Corrector - State Code Mismatch for Control No 13403665
 
