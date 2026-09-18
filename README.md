@@ -1,226 +1,36 @@
-Short Description:
-Invoice Corrector - Further Analysis for Control No 13409739
+Yes — I’ll keep it in the **same concise ServiceNow format** we were using, with the **WHEN section left for you to fill in**.
 
-Description:
-What: Further analysis of the Invoice Corrector issue for Control No 13409739.
-When: As per the requested schedule.
-Why: Premium values are not matching with the coverage information.
-Action: Database records and premium values will be reviewed and matched to identify the discrepancy.
+### Short Description
 
-Closure Notes:
-Child ticket created for further analysis of the Invoice Corrector issue. Database records and premium values will be reviewed against the coverage information to identify and resolve the discrepancy.
+**Incorrect AOPA number for policy LA316069-02 in ILS**
 
-Invoice Corrector - State Code Mismatch for Control No 13403665
+### Description
 
-Description:
+**WHAT:**
+Business user reported an error while trying to view A/C information under the A/C tab for policy **LA316069-02**.
 
-WHAT: Invoice processing failed because of a state code mismatch in the database for Control No 13403665.
+**WHEN:**
+[To be updated]
 
-WHEN: [Update the implementation timing]
+**WHO:**
+Business User
 
-WHO: Requested by the business user.
+**WHY:**
+The issue occurred due to an **incorrect AOPA number maintained in ILS**.
 
-HOW:
-Identified the state code as NF in the database.
-Updated the state code from NF to NL to allow the policy to move to the AS400 system for invoice processing.
-Processed the invoice successfully.
-Reverted the state code from NL back to NF after invoice processing was completed.
+**HOW:**
+The policy details were analyzed and the AOPA number was verified in the ILS database. The incorrect AOPA number was identified and corrected using a DML script.
 
-WHY: To resolve the state code mismatch and successfully process the invoice.
+### Closure Notes
 
-IDENTIFIERS: Control No: 13403665 | Application: UW-Aero eLAD
+Hi,
 
-Closure Information:
+Thank you for contacting AerospaceWindows support.
 
-Reported Issue:
+**Reported Issue:** Business user reported an error while trying to view A/C information under the A/C tab for policy **LA316069-02**.
 
-Invoice processing failed due to a state code mismatch.
+**Issue Description:** The AOPA number maintained in ILS was incorrect.
 
-Issue Description:
+**Analysis:** Upon analyzing the policy details, the AOPA number was found to be incorrect in the ILS database.
 
-The total invoice amount did not balance with the coverage information for Control No 13403665.
-
-Analysis:
-
-The database was reviewed and the state code was identified as NF, while NL was required for the policy to move to the AS400 system for processing.
-
-Solution/Workaround:
-
-The state code was temporarily updated from NF to NL to facilitate AS400 processing. The invoice was processed successfully, after which the state code was reverted back to NF.
-
-Module/functionality:
-
-INVOICE CORRECTOR / STATE CODE UPDATE
-
-Remove Midterm Endorsement for Control No 13755546
-
-Description:
-
-WHAT: Request raised to remove the midterm endorsement causing the reported issue for Control No 13755546.
-
-WHEN: [Update the implementation timing]
-
-WHO: Requested by the business user.
-
-HOW:
-Reviewed the policy and identified the midterm endorsement contributing to the issue.
-Prepared the required DML to remove the endorsement.
-Validated the relevant policy details after the update.
-
-WHY: To remove the midterm endorsement causing the issue and ensure the policy is processed correctly.
-
-IDENTIFIERS: Control No: 13755546 | Reference: 9085525 | Insured: Michael Keteman
-
-Closure Information:
-
-Reported Issue:
-
-Issue identified due to a midterm endorsement on the policy.
-
-Issue Description:
-
-The reported issue was analyzed and the midterm endorsement was identified as the cause.
-
-Analysis:
-
-The policy details were reviewed and the midterm endorsement contributing to the issue was identified. The required DML was prepared to remove the endorsement.
-
-Solution/Workaround:
-
-The required DML was prepared to remove the identified midterm endorsement and resolve the issue.
-
-Module/functionality:
-
-ENDORSEMENT MANAGEMENT / POLICY DATA UPDATE
-
-Update State Code to Newfoundland for Control No 13536416
-
-Description:
-
-WHAT: State information was not correctly reflecting as Newfoundland for Control No 13536416.
-
-WHEN: [Update the implementation timing]
-
-WHO: Requested by the business user.
-
-HOW:
-Reviewed the policy and identified the incorrect state code.
-Updated the state code to the correct Newfoundland value using DML.
-Validated the updated state information.
-
-WHY: To ensure the policy reflects the correct state as Newfoundland.
-
-IDENTIFIERS: Control No: 13536416
-
-Closure Information:
-
-Reported Issue:
-
-State was not correctly reflecting as Newfoundland for the specified control number.
-
-Issue Description:
-
-The state code was identified as incorrect, resulting in the state information not displaying correctly.
-
-Analysis:
-
-The policy details were reviewed and the state code was identified as the cause of the issue.
-
-Solution/Workaround:
-
-The state code was successfully updated to the correct Newfoundland value using DML, and the updated information was validated successfully.
-
-Module/functionality:
-
-POLICY INFORMATION / STATE CODE UPDATE
-UW-Aero eLAD: Certificate number not displaying correctly for lienholder on policy LA300532-6.
-
-Description:
-
-WHAT: User reported that the certificate information was not displaying correctly for the lienholder in UW-Aero eLAD for policy LA300532-6.
-
-WHEN: [Update the issue start time]
-
-WHO: Policies
-
-HOW - Steps of Approach:
-1. Reviewed the policy and reported certificate display issue.
-2. Verified the lienholder details and identified that the certificate number was not displaying correctly.
-3. Prepared the required DML to correct the certificate information.
-4. Executed the DML and validated the updated lienholder details.
-
-WHY: The certificate number was not correctly associated with the lienholder information, resulting in incorrect display in eLAD.
-
-IDENTIFIERS:
-Application: UW-Aero eLAD
-Policy No: LA300532-6
-Certificate No: 13545933
-
-Closure Notes:
-
-Reported Issue:
-
-Certificate information was not displaying correctly for the lienholder on policy LA300532-6.
-
-Issue Description:
-
-The certificate number was not showing correctly against the lienholder information in UW-Aero eLAD.
-
-Analysis:
-
-Reviewed the policy and lienholder details and identified that the certificate number was not correctly reflected for the lienholder.
-
-Solution/Workaround:
-
-The required DML was prepared and executed to correct the certificate information associated with the lienholder. The updated details were validated successfully.
-
-Module/Functionality:
-
-UW-Aero eLAD / Lienholder / Certificate Information
-
-No defect or recurring issue found; problem ticket not applicable.
-NASH Global Sanctions file AI_08212026_Weekly was initially reported as missing but was located and shared with the requester.
-
-Description:
-
-WHAT: The NASH Global Sanctions for Screening file was reported as not received.
-
-WHEN: [Update the issue start time]
-
-WHO: NASH Global Sanctions for Screening
-
-HOW - Steps of Approach:
-1. Reviewed the reported missing file issue.
-2. Verified the availability of the NASH file AI_08212026_Weekly.
-3. Confirmed that the file was available.
-4. Shared the file along with the confirmation email with the requester.
-
-WHY: The file was initially reported as not received, but verification confirmed that the file was available and could be shared with the requester.
-
-IDENTIFIERS:
-Application: NASH Global Sanctions for Screening
-File Name: AI_08212026_Weekly
-
-Closure Notes:
-
-Reported Issue:
-
-The NASH Global Sanctions for Screening file AI_08212026_Weekly was reported as not received.
-
-Issue Description:
-
-The requester reported that the weekly NASH file was not available for screening activities.
-
-Analysis:
-
-Reviewed the reported issue and verified the availability of the requested file. The file was found to be present and available for sharing.
-
-Solution/Workaround:
-
-The NASH file AI_08212026_Weekly was located and shared with the requester along with the confirmation email. The issue was resolved successfully.
-
-Module/Functionality:
-
-NASH / Global Sanctions Screening
-
-No defect or recurring issue found; problem ticket not applicable.
+**Solution/Workaround:** The AOPA number was corrected in ILS using a DML script. The updated information was verified successfully and the issue has been resolved.
