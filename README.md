@@ -1,4 +1,50 @@
-Yes — I’ll keep it in the **same concise ServiceNow format** we were using, with the **WHEN section left for you to fill in**.
+Short Description:
+UW-Aero eLAD: User unable to complete MFA verification and access eLAD.
+
+Description:
+
+WHAT: User reported being unable to complete the 2-step verification process while accessing UW-Aero eLAD.
+
+WHEN: [Update the issue start time]
+
+WHO: eLAD User
+
+HOW - Steps of Approach:
+1. Reviewed the reported login and MFA verification issue.
+2. Coordinated with the Okta team to investigate the MFA issue.
+3. MFA was reset for the affected user.
+4. User retried the login process after the MFA reset.
+5. Confirmed that the user was able to successfully log in to eLAD.
+
+WHY: The user was unable to complete the MFA verification required to access eLAD.
+
+IDENTIFIERS:
+Application: UW-Aero eLAD
+Issue: MFA / 2-Step Verification
+
+Closure Notes:
+
+Reported Issue:
+
+User was unable to complete the 2-step verification process while accessing UW-Aero eLAD.
+
+Issue Description:
+
+The user was unable to complete MFA verification and could not access eLAD.
+
+Analysis:
+
+Reviewed the reported access issue and coordinated with the Okta team. The MFA configuration for the affected user was reset to resolve the verification issue.
+
+Solution/Workaround:
+
+The MFA was reset with the assistance of the Okta team. The user was then able to successfully complete the verification process and log in to eLAD.
+
+Module/Functionality:
+
+UW-Aero eLAD / Okta MFA
+
+No defect or recurring issue found; problem ticket not applicable. — I’ll keep it in the **same concise ServiceNow format** we were using, with the **WHEN section left for you to fill in**.
 
 ### Short Description
 
