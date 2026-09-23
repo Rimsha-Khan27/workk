@@ -1,4 +1,15 @@
 Short Description:
+Policy copy not printed for SS 9085412-02 due to multiple LAD229 endorsements
+
+Description:
+What: Policy copy was not getting printed for SS 9085412-02.
+When: 2026-09-16
+Who: Single User
+How: The policy contained multiple LAD229 endorsements, which were causing the policy printing issue.
+Why: Duplicate LAD229 endorsements were present in the policy.
+
+Closure Notes:
+The issue was analyzed and identified to be caused by multiple LAD229 endorsements. The duplicate endorsements were removed using DML, retaining only one LAD229 endorsement. The midterm endorsement will be added back after the required validation.
 UW-Aero eLAD: User unable to complete MFA verification and access eLAD.
 
 Description:
