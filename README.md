@@ -1,4 +1,14 @@
-Short Description:
+SELECT
+    p.PRODNB AS [Producer Code],
+    p.PRODNAME AS [Producer Name],
+    p.PRODLINE1 AS [Address Line 1],
+    p.PRODLINE2 AS [Address Line 2],
+    c.AgentID,
+    c.CommissionRate
+FROM TBLProducer p
+LEFT JOIN tblCommissionRate c
+    ON p.PRODNB = c.AgentID
+WHERE p.PRODNAME LIKE '%Assured%';
 Policy copy not printed for SS 9085412-02 due to multiple LAD229 endorsements
 
 Description:
