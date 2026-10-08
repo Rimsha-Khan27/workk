@@ -1,4 +1,54 @@
 Short Description:
+UW-Aero eLAD: Policy LN 2320048-1 unavailable for print due to LAD844 endorsement issue.
+
+Description:
+
+WHAT: User requested printing of policy LN 2320048-1, which was not available for printing in UW-Aero eLAD.
+
+WHEN: [Update the issue start time]
+
+WHO: Policies
+
+HOW - Steps of Approach:
+1. Reviewed the policy and analyzed the print failure.
+2. Identified that the issue was related to the LAD844 endorsement causing an NGPS processing issue.
+3. Removed the LAD844 endorsement to allow the policy to be processed.
+4. Printed the LAD844 endorsement separately.
+5. Added the separately printed endorsement to the policy document.
+6. Shared the completed document with the user.
+
+WHY: The policy print process was failing due to an NGPS issue caused by the LAD844 endorsement.
+
+IDENTIFIERS:
+Application: UW-Aero eLAD
+Policy No: LN 2320048-1
+Endorsement: LAD844
+
+Closure Notes:
+
+Reported Issue:
+
+User reported that policy LN 2320048-1 was not available for printing in UW-Aero eLAD.
+
+Issue Description:
+
+The policy print process was failing due to an NGPS issue associated with the LAD844 endorsement.
+
+Analysis:
+
+Reviewed the policy and analyzed the print failure. The issue was identified as being caused by the LAD844 endorsement, which resulted in an NGPS processing issue.
+
+Solution/Workaround:
+
+The LAD844 endorsement was removed to allow the policy to be processed successfully. The endorsement was then printed separately and added to the policy document. The completed document was shared with the user.
+
+Module/Functionality:
+
+UW-Aero eLAD / Policy Printing / Endorsement
+
+No defect or recurring issue found; problem ticket not applicable.
+
+Short Description:
 UAT ILS Server Reboot Required for File Cleanup – twgsascs2505004
 
 Description:
