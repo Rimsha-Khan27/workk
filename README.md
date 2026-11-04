@@ -1,4 +1,18 @@
-## 1. Outage Description
+Of course! Here is the reverse table, with the database name in the first column and the user IDs present in that database in the second column.
+
+Database Name	User IDs Available
+AigAssembly	mbanik, sraypale, parb, karun, ndharmal, shshetty, srajeshk, guchandr
+LADUPLOAD	mbanik, sraypale, parb, karun, ndharmal, shshetty, jemelton, srajeshk, guchandr
+PolicyComposer	mbanik, sraypale, parb, karun, ndharmal, shshetty, srajeshk, guchandr
+AIGIMAGE	mbanik, sraypale, parb, karun, ndharmal, shshetty, srajeshk, guchandr
+GLData	mbanik, sraypale, parb, karun, ndharmal, shshetty, jemelton, srajeshk, guchandr
+LIGHTAVIATION	karun
+
+This is the database-wise summary based on the visible screenshot entries.
+
+
+
+
 
 Users were unable to launch the UW-Aero eLAD application, impacting policy quote generation and other business operations.
 
